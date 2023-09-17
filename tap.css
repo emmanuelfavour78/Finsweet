@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto; 
+  padding: 14px 0px;
+}
+
+header .logo {
+  font-size: 15px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  column-gap: 40px;
+  border-right: 1px solid gray;
+  padding: 5px 20px 5px 0;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav .right-contact {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+nav .right-contact .right-contact-text p {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/* main styling */
+
+main {
+  height: 91vh;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main .container {
+   height: 80%;
+   width: 100%;
+   display: flex;
+}
+
+main .container .left-text {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main .container .left-text .content {
+  width: 80%;
+}
+
+main .container .left-text h1 {
+  width: 80%;
+}
+
+
+main .container .right-img {
+  width: 50%;
+  height: 100%;
+  background-image: url(./Image\ \(1\).png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+main .container .right-img .service {
+  position: absolute;
+  left: -20%;
+  top: 0;
+}
+
+main .container .right-img .rating {
+  position: absolute;
+  right: -20%;
+  bottom: 0;
+}
